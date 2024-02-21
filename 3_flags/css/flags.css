@@ -13,3 +13,47 @@
 	background: black;
 	float: left;
 }
+
+.yellow {
+	width:33.33%;
+	height:100%;
+	background: yellow;
+	float: left;
+}
+
+.red {
+	width:33.33%;
+	height:100%;
+	background: red;
+	float: left;
+}
+
+/* Flag of Japan */
+.japan {
+	width:200px;
+	height:200px;
+	background:red;
+	border-radius: 100%;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Flag of Trinidad and Tobago */
+
+.third {
+	background: red;
+	overflow: hidden;
+}
+
+.stripe {
+	width: 800px;
+	height: 90px;
+	background: black;
+	transform: rotate(40deg);
+	position: absolute;
+	left: -86px;
+	top: 155px;
+	border:white solid 20px;
+}
